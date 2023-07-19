@@ -1,0 +1,2 @@
+# nc3-jarjit-mqtt
+THIS IS A RASPBERRY PI PUBLISHER FOR JARJIT!!!
