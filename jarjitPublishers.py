@@ -44,14 +44,14 @@ def runUltrasonicSensor(trigPin, echoPin, topic, seatNum):
     # print("Just published", int(seats[seatNum]), "to Topic", seatNum + 1)
 
 
-mqttBroker = "broker.emqx.io" # alt: mqtt.eclipseprojects.io
+mqttBroker = "broker.emqx.io" # alternative: mqtt.eclipseprojects.io
 
 client = mqtt.Client("raspiteam14")
 client.connect(mqttBroker)
 
-topic1 = "ultrasonic1/ular melingkar di atas pagar"
-topic2 = "ultrasonic2/ular melingkar di atas pagar"
-topic3 = "ldr/ular melingkar di atas pagar"
+topic1 = "ultrasonic1/nc3c6s2"
+topic2 = "ultrasonic2/nc3c6s2"
+topic3 = "ldr/nc3c6s2"
 
 trigPin1 = 22
 echoPin1 = 23
